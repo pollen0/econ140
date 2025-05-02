@@ -1,0 +1,201 @@
+area_fips,area_title,industry_code,industry_title,year,month1_emplvl,month2_emplvl,month3_emplvl,total_qtrly_wages,avg_wkly_wage,target_industry,data_year,avg_emplvl,size_category,time,quarter_1,quarter_2,quarter_3,quarter_4,post_policy,treatment,treat_post,treat_target,post_target,treat_post_target
+6000,California -- Statewide,722511,Full-service restaurants,2013,78,76,81,269734,265,1,2013,78.33333333333333,medium,2013.0,True,False,False,False,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2013,69,46,45,234659,338,1,2013,53.333333333333336,medium,2013.25,False,True,False,False,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2013,41,40,38,125822,244,1,2013,39.666666666666664,medium,2013.5,False,False,True,False,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2013,34,39,36,144911,307,1,2013,36.333333333333336,medium,2013.75,False,False,False,True,0,1,0,1,0,0
+6000,California -- Statewide,722513,Limited-service restaurants,2013,501,505,505,10339271,1579,0,2013,503.6666666666667,medium,2013.0,True,False,False,False,0,1,0,0,0,0
+6000,California -- Statewide,722513,Limited-service restaurants,2013,492,482,486,8683154,1372,0,2013,486.6666666666667,medium,2013.25,False,True,False,False,0,1,0,0,0,0
+6000,California -- Statewide,722513,Limited-service restaurants,2013,486,484,492,10137241,1600,0,2013,487.3333333333333,medium,2013.5,False,False,True,False,0,1,0,0,0,0
+6000,California -- Statewide,722513,Limited-service restaurants,2013,479,473,469,8774467,1425,0,2013,473.6666666666667,medium,2013.75,False,False,False,True,0,1,0,0,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2013,0,0,0,0,0,1,2013,0.0,small,2013.0,True,False,False,False,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2013,0,0,0,0,0,1,2013,0.0,small,2013.25,False,True,False,False,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2013,0,0,0,0,0,1,2013,0.0,small,2013.5,False,False,True,False,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2013,0,0,0,0,0,1,2013,0.0,small,2013.75,False,False,False,True,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2013,556598,561376,568247,2739760223,375,1,2013,562073.6666666666,large,2013.0,True,False,False,False,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2013,575318,583196,586229,2902848185,384,1,2013,581581.0,large,2013.25,False,True,False,False,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2013,588244,590150,587895,2977888047,389,1,2013,588763.0,large,2013.5,False,False,True,False,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2013,586845,589175,590489,2986421575,390,1,2013,588836.3333333334,large,2013.75,False,False,False,True,0,1,0,1,0,0
+6000,California -- Statewide,722513,Limited-service restaurants,2013,411442,417443,421826,1524509771,281,0,2013,416903.6666666667,medium,2013.0,True,False,False,False,0,1,0,0,0,0
+6000,California -- Statewide,722513,Limited-service restaurants,2013,428989,434800,437285,1615977292,287,0,2013,433691.3333333333,large,2013.25,False,True,False,False,0,1,0,0,0,0
+6000,California -- Statewide,722513,Limited-service restaurants,2013,437662,440315,439984,1667189227,292,0,2013,439320.3333333333,large,2013.5,False,False,True,False,0,1,0,0,0,0
+6000,California -- Statewide,722513,Limited-service restaurants,2013,438138,440493,440719,1673560673,293,0,2013,439783.3333333333,large,2013.75,False,False,False,True,0,1,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2013,149,144,135,503685,272,1,2013,142.66666666666666,medium,2013.0,True,False,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2013,133,138,131,598927,344,1,2013,134.0,medium,2013.25,False,True,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2013,138,138,137,495458,277,1,2013,137.66666666666666,medium,2013.5,False,False,True,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2013,145,145,147,641420,339,1,2013,145.66666666666666,medium,2013.75,False,False,False,True,0,0,0,0,0,0
+48000,Texas -- Statewide,722513,Limited-service restaurants,2013,103,113,105,481471,346,0,2013,107.0,small,2013.0,True,False,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722513,Limited-service restaurants,2013,106,106,104,420971,307,0,2013,105.33333333333333,small,2013.25,False,True,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722513,Limited-service restaurants,2013,106,102,103,444513,330,0,2013,103.66666666666667,small,2013.5,False,False,True,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722513,Limited-service restaurants,2013,107,106,109,495147,355,0,2013,107.33333333333333,small,2013.75,False,False,False,True,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2013,0,0,0,0,0,1,2013,0.0,small,2013.0,True,False,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2013,0,0,0,0,0,1,2013,0.0,small,2013.25,False,True,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2013,0,0,0,0,0,1,2013,0.0,small,2013.5,False,False,True,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2013,0,0,0,0,0,1,2013,0.0,small,2013.75,False,False,False,True,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2013,393700,401827,408211,1806569208,346,1,2013,401246.0,large,2013.0,True,False,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2013,412609,418846,422864,1896662464,349,1,2013,418106.3333333333,large,2013.25,False,True,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2013,420553,421335,417625,1950202955,357,1,2013,419837.6666666667,large,2013.5,False,False,True,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2013,412463,415223,416660,1906652715,354,1,2013,414782.0,large,2013.75,False,False,False,True,0,0,0,0,0,0
+48000,Texas -- Statewide,722513,Limited-service restaurants,2013,357013,362690,370234,1278338117,271,0,2013,363312.3333333333,medium,2013.0,True,False,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722513,Limited-service restaurants,2013,377026,382782,386169,1365707240,275,0,2013,381992.3333333333,medium,2013.25,False,True,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722513,Limited-service restaurants,2013,381632,382880,381631,1389889929,280,0,2013,382047.6666666667,medium,2013.5,False,False,True,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722513,Limited-service restaurants,2013,376745,377921,376676,1394948030,285,0,2013,377114.0,medium,2013.75,False,False,False,True,0,0,0,0,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2014,34,33,30,106700,254,1,2014,32.333333333333336,medium,2014.0,True,False,False,False,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2014,36,35,38,131275,278,1,2014,36.333333333333336,medium,2014.25,False,True,False,False,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2014,37,35,36,107745,230,1,2014,36.0,medium,2014.5,False,False,True,False,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2014,37,37,36,134860,283,1,2014,36.666666666666664,medium,2014.75,False,False,False,True,0,1,0,1,0,0
+6000,California -- Statewide,722513,Limited-service restaurants,2014,480,492,484,9548125,1513,0,2014,485.3333333333333,medium,2014.0,True,False,False,False,0,1,0,0,0,0
+6000,California -- Statewide,722513,Limited-service restaurants,2014,481,481,487,9315868,1484,0,2014,483.0,medium,2014.25,False,True,False,False,0,1,0,0,0,0
+6000,California -- Statewide,722513,Limited-service restaurants,2014,489,487,483,8729278,1381,0,2014,486.3333333333333,medium,2014.5,False,False,True,False,0,1,0,0,0,0
+6000,California -- Statewide,722513,Limited-service restaurants,2014,475,483,482,9690267,1553,0,2014,480.0,medium,2014.75,False,False,False,True,0,1,0,0,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2014,0,0,0,0,0,1,2014,0.0,small,2014.0,True,False,False,False,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2014,0,0,0,0,0,1,2014,0.0,small,2014.25,False,True,False,False,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2014,0,0,0,0,0,1,2014,0.0,small,2014.5,False,False,True,False,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2014,0,0,0,0,0,1,2014,0.0,small,2014.75,False,False,False,True,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2014,581454,587045,593220,2914934068,382,1,2014,587239.6666666666,large,2014.0,True,False,False,False,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2014,599594,606535,610840,3107403603,395,1,2014,605656.3333333334,large,2014.25,False,True,False,False,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2014,610653,614035,609272,3251743422,409,1,2014,611320.0,large,2014.5,False,False,True,False,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2014,605769,606312,605457,3273307505,416,1,2014,605846.0,large,2014.75,False,False,False,True,0,1,0,1,0,0
+6000,California -- Statewide,722513,Limited-service restaurants,2014,444031,449047,453670,1658766542,284,0,2014,448916.0,large,2014.0,True,False,False,False,0,1,0,0,0,0
+6000,California -- Statewide,722513,Limited-service restaurants,2014,458303,462396,463670,1750631763,292,0,2014,461456.3333333333,large,2014.25,False,True,False,False,0,1,0,0,0,0
+6000,California -- Statewide,722513,Limited-service restaurants,2014,464789,467017,466101,1868468385,308,0,2014,465969.0,large,2014.5,False,False,True,False,0,1,0,0,0,0
+6000,California -- Statewide,722513,Limited-service restaurants,2014,463759,464745,463850,1878885636,311,0,2014,464118.0,large,2014.75,False,False,False,True,0,1,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2014,140,134,231,902123,412,1,2014,168.33333333333334,medium,2014.0,True,False,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2014,226,218,227,1058357,364,1,2014,223.66666666666666,medium,2014.25,False,True,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2014,226,223,216,1020279,354,1,2014,221.66666666666666,medium,2014.5,False,False,True,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2014,227,221,223,1034104,356,1,2014,223.66666666666666,medium,2014.75,False,False,False,True,0,0,0,0,0,0
+48000,Texas -- Statewide,722513,Limited-service restaurants,2014,103,104,102,397021,297,0,2014,103.0,small,2014.0,True,False,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722513,Limited-service restaurants,2014,99,102,102,430372,328,0,2014,101.0,small,2014.25,False,True,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722513,Limited-service restaurants,2014,99,99,100,459088,356,0,2014,99.33333333333333,small,2014.5,False,False,True,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722513,Limited-service restaurants,2014,107,112,108,521011,368,0,2014,109.0,medium,2014.75,False,False,False,True,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2014,0,0,0,0,0,1,2014,0.0,small,2014.0,True,False,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2014,0,0,0,0,0,1,2014,0.0,small,2014.25,False,True,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2014,0,0,0,0,0,1,2014,0.0,small,2014.5,False,False,True,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2014,0,0,0,0,0,1,2014,0.0,small,2014.75,False,False,False,True,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2014,408109,415270,422264,1914456899,355,1,2014,415214.3333333333,large,2014.0,True,False,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2014,428483,433561,438623,2004557012,356,1,2014,433555.6666666667,large,2014.25,False,True,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2014,434005,432862,430201,2018845509,359,1,2014,432356.0,large,2014.5,False,False,True,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2014,427286,427635,428552,2057624162,370,1,2014,427824.3333333333,large,2014.75,False,False,False,True,0,0,0,0,0,0
+48000,Texas -- Statewide,722513,Limited-service restaurants,2014,374806,379157,388435,1379072150,279,0,2014,380799.3333333333,medium,2014.0,True,False,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722513,Limited-service restaurants,2014,395439,399548,404180,1467446803,282,0,2014,399722.3333333333,medium,2014.25,False,True,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722513,Limited-service restaurants,2014,399365,400401,400325,1492886569,287,0,2014,400030.3333333333,medium,2014.5,False,False,True,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722513,Limited-service restaurants,2014,398029,399632,400683,1530932366,295,0,2014,399448.0,medium,2014.75,False,False,False,True,0,0,0,0,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2015,36,36,40,98029,202,1,2015,37.333333333333336,medium,2015.0,True,False,False,False,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2015,48,47,51,171094,270,1,2015,48.666666666666664,medium,2015.25,False,True,False,False,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2015,51,52,52,170062,253,1,2015,51.666666666666664,medium,2015.5,False,False,True,False,1,1,1,1,1,1
+6000,California -- Statewide,722511,Full-service restaurants,2015,50,50,56,213466,316,1,2015,52.0,medium,2015.75,False,False,False,True,0,1,0,1,0,0
+6000,California -- Statewide,722513,Limited-service restaurants,2015,478,473,481,9173734,1478,0,2015,477.3333333333333,medium,2015.0,True,False,False,False,0,1,0,0,0,0
+6000,California -- Statewide,722513,Limited-service restaurants,2015,486,488,485,9259933,1465,0,2015,486.3333333333333,medium,2015.25,False,True,False,False,0,1,0,0,0,0
+6000,California -- Statewide,722513,Limited-service restaurants,2015,482,483,482,9311239,1485,0,2015,482.3333333333333,medium,2015.5,False,False,True,False,1,1,1,0,0,0
+6000,California -- Statewide,722513,Limited-service restaurants,2015,475,469,464,9130814,1497,0,2015,469.3333333333333,medium,2015.75,False,False,False,True,0,1,0,0,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2015,0,0,0,0,0,1,2015,0.0,small,2015.0,True,False,False,False,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2015,0,0,0,0,0,1,2015,0.0,small,2015.25,False,True,False,False,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2015,0,0,0,0,0,1,2015,0.0,small,2015.5,False,False,True,False,1,1,1,1,1,1
+6000,California -- Statewide,722511,Full-service restaurants,2015,0,0,0,0,0,1,2015,0.0,small,2015.75,False,False,False,True,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2015,599992,606266,610562,3260815642,414,1,2015,605606.6666666666,large,2015.0,True,False,False,False,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2015,615980,621605,625643,3416131938,423,1,2015,621076.0,large,2015.25,False,True,False,False,0,1,0,1,0,0
+6000,California -- Statewide,722511,Full-service restaurants,2015,629301,630781,627245,3513355019,430,1,2015,629109.0,large,2015.5,False,False,True,False,1,1,1,1,1,1
+6000,California -- Statewide,722511,Full-service restaurants,2015,627658,626358,627397,3610909063,443,1,2015,627137.6666666666,large,2015.75,False,False,False,True,0,1,0,1,0,0
+6000,California -- Statewide,722513,Limited-service restaurants,2015,460594,467219,470966,1836836037,303,0,2015,466259.6666666667,large,2015.0,True,False,False,False,0,1,0,0,0,0
+6000,California -- Statewide,722513,Limited-service restaurants,2015,475494,480162,482204,1939929753,311,0,2015,479286.6666666667,large,2015.25,False,True,False,False,0,1,0,0,0,0
+6000,California -- Statewide,722513,Limited-service restaurants,2015,483011,483333,482887,2008495389,320,0,2015,483077.0,large,2015.5,False,False,True,False,1,1,1,0,0,0
+6000,California -- Statewide,722513,Limited-service restaurants,2015,483559,484863,484613,2102371272,334,0,2015,484345.0,large,2015.75,False,False,False,True,0,1,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2015,214,218,212,918368,329,1,2015,214.66666666666666,medium,2015.0,True,False,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2015,215,224,222,1050382,367,1,2015,220.33333333333334,medium,2015.25,False,True,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2015,218,216,218,990140,350,1,2015,217.33333333333334,medium,2015.5,False,False,True,False,1,0,0,0,1,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2015,217,224,220,1028248,359,1,2015,220.33333333333334,medium,2015.75,False,False,False,True,0,0,0,0,0,0
+48000,Texas -- Statewide,722513,Limited-service restaurants,2015,104,97,104,408291,309,0,2015,101.66666666666667,small,2015.0,True,False,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722513,Limited-service restaurants,2015,101,102,94,522857,406,0,2015,99.0,small,2015.25,False,True,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722513,Limited-service restaurants,2015,106,102,106,415211,305,0,2015,104.66666666666667,small,2015.5,False,False,True,False,1,0,0,0,0,0
+48000,Texas -- Statewide,722513,Limited-service restaurants,2015,107,108,105,525199,379,0,2015,106.66666666666667,small,2015.75,False,False,False,True,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2015,0,0,0,0,0,1,2015,0.0,small,2015.0,True,False,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2015,0,0,0,0,0,1,2015,0.0,small,2015.25,False,True,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2015,0,0,0,0,0,1,2015,0.0,small,2015.5,False,False,True,False,1,0,0,0,1,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2015,0,0,0,0,0,1,2015,0.0,small,2015.75,False,False,False,True,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2015,422350,428947,433562,2040640456,367,1,2015,428286.3333333333,large,2015.0,True,False,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2015,442211,447515,453197,2153600444,370,1,2015,447641.0,large,2015.25,False,True,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2015,451810,451282,448169,2201343979,376,1,2015,450420.3333333333,large,2015.5,False,False,True,False,1,0,0,0,1,0
+48000,Texas -- Statewide,722511,Full-service restaurants,2015,444380,444868,445995,2213873541,383,1,2015,445081.0,large,2015.75,False,False,False,True,0,0,0,0,0,0
+48000,Texas -- Statewide,722513,Limited-service restaurants,2015,393759,400660,406518,1490274256,286,0,2015,400312.3333333333,medium,2015.0,True,False,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722513,Limited-service restaurants,2015,414432,420665,427036,1591632372,291,0,2015,420711.0,medium,2015.25,False,True,False,False,0,0,0,0,0,0
+48000,Texas -- Statewide,722513,Limited-service restaurants,2015,423423,423997,422600,1628576203,296,0,2015,423340.0,medium,2015.5,False,False,True,False,1,0,0,0,0,0
+48000,Texas -- Statewide,722513,Limited-service restaurants,2015,420742,423498,423727,1678118950,305,0,2015,422655.6666666667,medium,2015.75,False,False,False,True,0,0,0,0,0,0
+6000,California -- Statewide,722511,NAICS 722511 Full-service restaurants,2016,45,61,52,165376,242,1,2016,52.666666666666664,medium,2016.0,True,False,False,False,1,1,1,1,1,1
+6000,California -- Statewide,722511,NAICS 722511 Full-service restaurants,2016,55,51,47,227610,343,1,2016,51.0,medium,2016.25,False,True,False,False,1,1,1,1,1,1
+6000,California -- Statewide,722511,NAICS 722511 Full-service restaurants,2016,47,51,48,214773,339,1,2016,48.666666666666664,medium,2016.5,False,False,True,False,1,1,1,1,1,1
+6000,California -- Statewide,722511,NAICS 722511 Full-service restaurants,2016,47,48,45,175614,289,1,2016,46.666666666666664,medium,2016.75,False,False,False,True,1,1,1,1,1,1
+6000,California -- Statewide,722513,NAICS 722513 Limited-service restaurants,2016,64,66,74,373101,422,0,2016,68.0,small,2016.0,True,False,False,False,1,1,1,0,0,0
+6000,California -- Statewide,722513,NAICS 722513 Limited-service restaurants,2016,72,70,66,379508,421,0,2016,69.33333333333333,small,2016.25,False,True,False,False,1,1,1,0,0,0
+6000,California -- Statewide,722513,NAICS 722513 Limited-service restaurants,2016,66,71,66,413181,470,0,2016,67.66666666666667,small,2016.5,False,False,True,False,1,1,1,0,0,0
+6000,California -- Statewide,722513,NAICS 722513 Limited-service restaurants,2016,67,69,68,414562,469,0,2016,68.0,small,2016.75,False,False,False,True,1,1,1,0,0,0
+6000,California -- Statewide,722511,NAICS 722511 Full-service restaurants,2016,0,0,0,0,0,1,2016,0.0,small,2016.0,True,False,False,False,1,1,1,1,1,1
+6000,California -- Statewide,722511,NAICS 722511 Full-service restaurants,2016,0,0,0,0,0,1,2016,0.0,small,2016.25,False,True,False,False,1,1,1,1,1,1
+6000,California -- Statewide,722511,NAICS 722511 Full-service restaurants,2016,0,0,0,0,0,1,2016,0.0,small,2016.5,False,False,True,False,1,1,1,1,1,1
+6000,California -- Statewide,722511,NAICS 722511 Full-service restaurants,2016,0,0,0,0,0,1,2016,0.0,small,2016.75,False,False,False,True,1,1,1,1,1,1
+6000,California -- Statewide,722511,NAICS 722511 Full-service restaurants,2016,621272,625565,629706,3508537469,431,1,2016,625514.3333333334,large,2016.0,True,False,False,False,1,1,1,1,1,1
+6000,California -- Statewide,722511,NAICS 722511 Full-service restaurants,2016,638977,643351,645907,3761306791,450,1,2016,642745.0,large,2016.25,False,True,False,False,1,1,1,1,1,1
+6000,California -- Statewide,722511,NAICS 722511 Full-service restaurants,2016,646864,646697,643554,3942562342,470,1,2016,645705.0,large,2016.5,False,False,True,False,1,1,1,1,1,1
+6000,California -- Statewide,722511,NAICS 722511 Full-service restaurants,2016,644965,644656,642618,3900600228,466,1,2016,644079.6666666666,large,2016.75,False,False,False,True,1,1,1,1,1,1
+6000,California -- Statewide,722513,NAICS 722513 Limited-service restaurants,2016,484473,490069,494772,2048997267,322,0,2016,489771.3333333333,large,2016.0,True,False,False,False,1,1,1,0,0,0
+6000,California -- Statewide,722513,NAICS 722513 Limited-service restaurants,2016,501462,504384,505298,2185672934,334,0,2016,503714.6666666667,large,2016.25,False,True,False,False,1,1,1,0,0,0
+6000,California -- Statewide,722513,NAICS 722513 Limited-service restaurants,2016,508060,507907,505386,2347961255,356,0,2016,507117.6666666667,large,2016.5,False,False,True,False,1,1,1,0,0,0
+6000,California -- Statewide,722513,NAICS 722513 Limited-service restaurants,2016,507000,507697,505917,2356995338,358,0,2016,506871.3333333333,large,2016.75,False,False,False,True,1,1,1,0,0,0
+48000,Texas -- Statewide,722511,NAICS 722511 Full-service restaurants,2016,210,218,216,983449,352,1,2016,214.66666666666666,medium,2016.0,True,False,False,False,1,0,0,0,1,0
+48000,Texas -- Statewide,722511,NAICS 722511 Full-service restaurants,2016,214,213,229,1072335,377,1,2016,218.66666666666666,medium,2016.25,False,True,False,False,1,0,0,0,1,0
+48000,Texas -- Statewide,722511,NAICS 722511 Full-service restaurants,2016,220,214,212,1136441,406,1,2016,215.33333333333334,medium,2016.5,False,False,True,False,1,0,0,0,1,0
+48000,Texas -- Statewide,722511,NAICS 722511 Full-service restaurants,2016,216,219,209,963494,345,1,2016,214.66666666666666,medium,2016.75,False,False,False,True,1,0,0,0,1,0
+48000,Texas -- Statewide,722513,NAICS 722513 Limited-service restaurants,2016,101,104,107,424159,314,0,2016,104.0,small,2016.0,True,False,False,False,1,0,0,0,0,0
+48000,Texas -- Statewide,722513,NAICS 722513 Limited-service restaurants,2016,110,108,106,552855,394,0,2016,108.0,small,2016.25,False,True,False,False,1,0,0,0,0,0
+48000,Texas -- Statewide,722513,NAICS 722513 Limited-service restaurants,2016,103,97,93,429402,338,0,2016,97.66666666666667,small,2016.5,False,False,True,False,1,0,0,0,0,0
+48000,Texas -- Statewide,722513,NAICS 722513 Limited-service restaurants,2016,100,98,93,500401,397,0,2016,97.0,small,2016.75,False,False,False,True,1,0,0,0,0,0
+48000,Texas -- Statewide,722511,NAICS 722511 Full-service restaurants,2016,0,0,0,0,0,1,2016,0.0,small,2016.0,True,False,False,False,1,0,0,0,1,0
+48000,Texas -- Statewide,722511,NAICS 722511 Full-service restaurants,2016,0,0,0,0,0,1,2016,0.0,small,2016.25,False,True,False,False,1,0,0,0,1,0
+48000,Texas -- Statewide,722511,NAICS 722511 Full-service restaurants,2016,0,0,0,0,0,1,2016,0.0,small,2016.5,False,False,True,False,1,0,0,0,1,0
+48000,Texas -- Statewide,722511,NAICS 722511 Full-service restaurants,2016,0,0,0,0,0,1,2016,0.0,small,2016.75,False,False,False,True,1,0,0,0,1,0
+48000,Texas -- Statewide,722511,NAICS 722511 Full-service restaurants,2016,442257,448450,452331,2172774006,373,1,2016,447679.3333333333,large,2016.0,True,False,False,False,1,0,0,0,1,0
+48000,Texas -- Statewide,722511,NAICS 722511 Full-service restaurants,2016,457572,461636,466654,2276188421,379,1,2016,461954.0,large,2016.25,False,True,False,False,1,0,0,0,1,0
+48000,Texas -- Statewide,722511,NAICS 722511 Full-service restaurants,2016,464215,462083,458185,2338035388,390,1,2016,461494.3333333333,large,2016.5,False,False,True,False,1,0,0,0,1,0
+48000,Texas -- Statewide,722511,NAICS 722511 Full-service restaurants,2016,453880,454505,455305,2288443655,387,1,2016,454563.3333333333,large,2016.75,False,False,False,True,1,0,0,0,1,0
+48000,Texas -- Statewide,722513,NAICS 722513 Limited-service restaurants,2016,419782,425782,431801,1613794640,292,0,2016,425788.3333333333,large,2016.0,True,False,False,False,1,0,0,0,0,0
+48000,Texas -- Statewide,722513,NAICS 722513 Limited-service restaurants,2016,439255,444295,447958,1710883121,297,0,2016,443836.0,large,2016.25,False,True,False,False,1,0,0,0,0,0
+48000,Texas -- Statewide,722513,NAICS 722513 Limited-service restaurants,2016,442725,445097,440757,1784599450,310,0,2016,442859.6666666667,large,2016.5,False,False,True,False,1,0,0,0,0,0
+48000,Texas -- Statewide,722513,NAICS 722513 Limited-service restaurants,2016,439259,440697,439725,1762034168,308,0,2016,439893.6666666667,large,2016.75,False,False,False,True,1,0,0,0,0,0
+6000,California -- Statewide,722511,NAICS 722511 Full-service restaurants,2017,44,46,44,187415,323,1,2017,44.666666666666664,medium,2017.0,True,False,False,False,1,1,1,1,1,1
+6000,California -- Statewide,722511,NAICS 722511 Full-service restaurants,2017,43,44,43,178286,316,1,2017,43.333333333333336,medium,2017.25,False,True,False,False,1,1,1,1,1,1
+6000,California -- Statewide,722511,NAICS 722511 Full-service restaurants,2017,39,45,46,210152,373,1,2017,43.333333333333336,medium,2017.5,False,False,True,False,1,1,1,1,1,1
+6000,California -- Statewide,722511,NAICS 722511 Full-service restaurants,2017,46,46,48,206254,340,1,2017,46.666666666666664,medium,2017.75,False,False,False,True,1,1,1,1,1,1
+6000,California -- Statewide,722513,NAICS 722513 Limited-service restaurants,2017,62,63,63,431324,529,0,2017,62.666666666666664,small,2017.0,True,False,False,False,1,1,1,0,0,0
+6000,California -- Statewide,722513,NAICS 722513 Limited-service restaurants,2017,61,59,56,398826,523,0,2017,58.666666666666664,small,2017.25,False,True,False,False,1,1,1,0,0,0
+6000,California -- Statewide,722513,NAICS 722513 Limited-service restaurants,2017,57,60,61,415949,539,0,2017,59.333333333333336,small,2017.5,False,False,True,False,1,1,1,0,0,0
+6000,California -- Statewide,722513,NAICS 722513 Limited-service restaurants,2017,56,55,54,376506,527,0,2017,55.0,small,2017.75,False,False,False,True,1,1,1,0,0,0
+6000,California -- Statewide,722511,NAICS 722511 Full-service restaurants,2017,0,0,0,0,0,1,2017,0.0,small,2017.0,True,False,False,False,1,1,1,1,1,1
+6000,California -- Statewide,722511,NAICS 722511 Full-service restaurants,2017,0,0,0,0,0,1,2017,0.0,small,2017.25,False,True,False,False,1,1,1,1,1,1
+6000,California -- Statewide,722511,NAICS 722511 Full-service restaurants,2017,0,0,0,0,0,1,2017,0.0,small,2017.5,False,False,True,False,1,1,1,1,1,1
+6000,California -- Statewide,722511,NAICS 722511 Full-service restaurants,2017,0,0,0,0,0,1,2017,0.0,small,2017.75,False,False,False,True,1,1,1,1,1,1
+6000,California -- Statewide,722511,NAICS 722511 Full-service restaurants,2017,633367,638312,642967,3800469249,458,1,2017,638215.3333333334,large,2017.0,True,False,False,False,1,1,1,1,1,1
+6000,California -- Statewide,722511,NAICS 722511 Full-service restaurants,2017,649864,655187,658039,4020783567,473,1,2017,654363.3333333334,large,2017.25,False,True,False,False,1,1,1,1,1,1
+6000,California -- Statewide,722511,NAICS 722511 Full-service restaurants,2017,656447,655176,651941,4047863917,476,1,2017,654521.3333333334,large,2017.5,False,False,True,False,1,1,1,1,1,1
+6000,California -- Statewide,722511,NAICS 722511 Full-service restaurants,2017,649323,648251,647035,4084633273,485,1,2017,648203.0,large,2017.75,False,False,False,True,1,1,1,1,1,1
+6000,California -- Statewide,722513,NAICS 722513 Limited-service restaurants,2017,502822,509282,514657,2275245401,344,0,2017,508920.3333333333,large,2017.0,True,False,False,False,1,1,1,0,0,0
+6000,California -- Statewide,722513,NAICS 722513 Limited-service restaurants,2017,520587,524841,527149,2414541911,354,0,2017,524192.3333333333,large,2017.25,False,True,False,False,1,1,1,0,0,0
+6000,California -- Statewide,722513,NAICS 722513 Limited-service restaurants,2017,527420,527670,525310,2474075983,361,0,2017,526800.0,large,2017.5,False,False,True,False,1,1,1,0,0,0
+6000,California -- Statewide,722513,NAICS 722513 Limited-service restaurants,2017,525726,525171,524035,2505026971,367,0,2017,524977.3333333334,large,2017.75,False,False,False,True,1,1,1,0,0,0
+48000,Texas -- Statewide,722511,NAICS 722511 Full-service restaurants,2017,206,204,189,1085640,418,1,2017,199.66666666666666,medium,2017.0,True,False,False,False,1,0,0,0,1,0
+48000,Texas -- Statewide,722511,NAICS 722511 Full-service restaurants,2017,191,185,184,943357,389,1,2017,186.66666666666666,medium,2017.25,False,True,False,False,1,0,0,0,1,0
+48000,Texas -- Statewide,722511,NAICS 722511 Full-service restaurants,2017,187,204,204,1102757,428,1,2017,198.33333333333334,medium,2017.5,False,False,True,False,1,0,0,0,1,0
+48000,Texas -- Statewide,722511,NAICS 722511 Full-service restaurants,2017,200,206,209,1040749,391,1,2017,205.0,medium,2017.75,False,False,False,True,1,0,0,0,1,0
+48000,Texas -- Statewide,722513,NAICS 722513 Limited-service restaurants,2017,89,88,85,391471,345,0,2017,87.33333333333333,small,2017.0,True,False,False,False,1,0,0,0,0,0
+48000,Texas -- Statewide,722513,NAICS 722513 Limited-service restaurants,2017,84,84,82,504227,465,0,2017,83.33333333333333,small,2017.25,False,True,False,False,1,0,0,0,0,0
+48000,Texas -- Statewide,722513,NAICS 722513 Limited-service restaurants,2017,86,83,82,394262,362,0,2017,83.66666666666667,small,2017.5,False,False,True,False,1,0,0,0,0,0
+48000,Texas -- Statewide,722513,NAICS 722513 Limited-service restaurants,2017,88,91,91,467972,400,0,2017,90.0,small,2017.75,False,False,False,True,1,0,0,0,0,0
+48000,Texas -- Statewide,722511,NAICS 722511 Full-service restaurants,2017,0,0,0,0,0,1,2017,0.0,small,2017.0,True,False,False,False,1,0,0,0,1,0
+48000,Texas -- Statewide,722511,NAICS 722511 Full-service restaurants,2017,0,0,0,0,0,1,2017,0.0,small,2017.25,False,True,False,False,1,0,0,0,1,0
+48000,Texas -- Statewide,722511,NAICS 722511 Full-service restaurants,2017,0,0,0,0,0,1,2017,0.0,small,2017.5,False,False,True,False,1,0,0,0,1,0
+48000,Texas -- Statewide,722511,NAICS 722511 Full-service restaurants,2017,0,0,0,0,0,1,2017,0.0,small,2017.75,False,False,False,True,1,0,0,0,1,0
+48000,Texas -- Statewide,722511,NAICS 722511 Full-service restaurants,2017,446370,450732,456496,2292251490,391,1,2017,451199.3333333333,large,2017.0,True,False,False,False,1,0,0,0,1,0
+48000,Texas -- Statewide,722511,NAICS 722511 Full-service restaurants,2017,459411,464332,467785,2415336841,401,1,2017,463842.6666666667,large,2017.25,False,True,False,False,1,0,0,0,1,0
+48000,Texas -- Statewide,722511,NAICS 722511 Full-service restaurants,2017,464361,462753,455782,2320962993,387,1,2017,460965.3333333333,large,2017.5,False,False,True,False,1,0,0,0,1,0
+48000,Texas -- Statewide,722511,NAICS 722511 Full-service restaurants,2017,455435,456852,459055,2390886273,402,1,2017,457114.0,large,2017.75,False,False,False,True,1,0,0,0,1,0
+48000,Texas -- Statewide,722513,NAICS 722513 Limited-service restaurants,2017,438193,442453,450122,1781486636,309,0,2017,443589.3333333333,large,2017.0,True,False,False,False,1,0,0,0,0,0
+48000,Texas -- Statewide,722513,NAICS 722513 Limited-service restaurants,2017,453349,459500,462599,1819245634,305,0,2017,458482.6666666667,large,2017.25,False,True,False,False,1,0,0,0,0,0
+48000,Texas -- Statewide,722513,NAICS 722513 Limited-service restaurants,2017,461952,462052,455017,1852496367,310,0,2017,459673.6666666667,large,2017.5,False,False,True,False,1,0,0,0,0,0
+48000,Texas -- Statewide,722513,NAICS 722513 Limited-service restaurants,2017,455258,454318,455311,1865776058,315,0,2017,454962.3333333333,large,2017.75,False,False,False,True,1,0,0,0,0,0
