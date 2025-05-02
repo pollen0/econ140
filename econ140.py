@@ -9,6 +9,7 @@ import statsmodels.api as sm
 import statsmodels.formula.api as smf
 import matplotlib.gridspec as gridspec
 from statsmodels.tsa.seasonal import seasonal_decompose
+import matplotlib.patches as mpatches
 
 # Parameters for the analysis
 zip_files = [f"{year}_qtrly_by_area.zip" for year in range(2013, 2018)]
@@ -357,6 +358,9 @@ def run_regression_analysis(data, outcome_var, model_type='did', include_seasona
         return None
 
 try:
+    # Dictionary to store all results for the summary chart
+    all_results = {}
+    
     # 1. Standard DiD for Employment
     print("\nCreating visualizations for employment trends...")
     plot_did_trends(restaurant_data, 'avg_emplvl', 
@@ -373,6 +377,7 @@ try:
         # Print key coefficient for interpretation
         ddd_coef = ddd_results.params['treat_post_target']
         ddd_pval = ddd_results.pvalues['treat_post_target']
+        all_results['Triple Difference'] = {'estimate': ddd_coef, 'p_value': ddd_pval, 'outcome': 'Employment'}
         print(f"\nDDD Estimate (treat_post_target coefficient): {ddd_coef:.2f} (p={ddd_pval:.4f})")
 
         if ddd_pval > 0.05:
@@ -398,6 +403,7 @@ try:
 
         wage_coef = wage_did_results.params['treat_post']
         wage_pval = wage_did_results.pvalues['treat_post']
+        all_results['Wage Effect'] = {'estimate': wage_coef, 'p_value': wage_pval, 'outcome': 'Weekly Wages'}
         print(f"\nDiD Estimate for Wages: {wage_coef:.2f} (p={wage_pval:.4f})")
 
         if wage_pval > 0.05:
@@ -461,6 +467,7 @@ try:
                 if size_results[size]:
                     coef = size_results[size].params['treat_post']
                     pval = size_results[size].pvalues['treat_post']
+                    all_results[f'{size.title()} Restaurants'] = {'estimate': coef, 'p_value': pval, 'outcome': 'Employment'}
                     print(f"\nDiD Estimate for {size.title()} Restaurants: {coef:.2f} (p={pval:.4f})")
 
         # Add an overall title
@@ -543,34 +550,47 @@ try:
             ax8.set_title('Texas - Residual')
             
             # Create seasonally adjusted data for DiD
-            ca_data['adj_emplvl'] = ca_decomp.trend + ca_decomp.resid
-            tx_data['adj_emplvl'] = tx_decomp.trend + tx_decomp.resid
-            
-            # Combine and plot the seasonally adjusted data
-            adj_data = pd.concat([ca_data, tx_data])
-            
-            ax9 = plt.subplot(gs[4, :])
-            for state, color, label in [("6000", "blue", "California"), ("48000", "green", "Texas")]:
-                state_data = adj_data[adj_data['area_fips'] == state]
-                ax9.plot(state_data['time'], state_data['adj_emplvl'], color=color, label=label)
-            
-            # Add vertical line for policy implementation
-            policy_time = policy_implementation[0] + (policy_implementation[1] - 1) / 4
-            ax9.axvline(x=policy_time, color='red', linestyle='--', linewidth=2,
-                        label='CA Paid Sick Leave (2015 Q3)')
-            
-            ax9.set_title('Seasonally Adjusted Employment', fontsize=14)
-            ax9.legend()
-            
-            # Run DiD on seasonally adjusted data
-            adj_did_results = run_regression_analysis(adj_data, 'adj_emplvl', include_seasonal=False)
-            if adj_did_results:
-                print("\nDiD Results for Seasonally Adjusted Employment:")
-                print(adj_did_results.summary().tables[1])
+            try:
+                # Create a unique index to avoid duplicate index error
+                ca_data = ca_data.reset_index(drop=True)
+                tx_data = tx_data.reset_index(drop=True)
                 
-                adj_coef = adj_did_results.params['treat_post']
-                adj_pval = adj_did_results.pvalues['treat_post']
-                print(f"\nDiD Estimate for Seasonally Adjusted Employment: {adj_coef:.2f} (p={adj_pval:.4f})")
+                ca_trend = ca_decomp.trend.reset_index(drop=True)
+                ca_resid = ca_decomp.resid.reset_index(drop=True)
+                tx_trend = tx_decomp.trend.reset_index(drop=True)
+                tx_resid = tx_decomp.resid.reset_index(drop=True)
+                
+                ca_data['adj_emplvl'] = ca_trend + ca_resid
+                tx_data['adj_emplvl'] = tx_trend + tx_resid
+                
+                # Combine and plot the seasonally adjusted data
+                adj_data = pd.concat([ca_data, tx_data], ignore_index=True)
+                
+                ax9 = plt.subplot(gs[4, :])
+                for state, color, label in [("6000", "blue", "California"), ("48000", "green", "Texas")]:
+                    state_data = adj_data[adj_data['area_fips'] == state]
+                    ax9.plot(state_data['time'], state_data['adj_emplvl'], color=color, label=label)
+                
+                # Add vertical line for policy implementation
+                policy_time = policy_implementation[0] + (policy_implementation[1] - 1) / 4
+                ax9.axvline(x=policy_time, color='red', linestyle='--', linewidth=2,
+                            label='CA Paid Sick Leave (2015 Q3)')
+                
+                ax9.set_title('Seasonally Adjusted Employment', fontsize=14)
+                ax9.legend()
+                
+                # Run DiD on seasonally adjusted data
+                adj_did_results = run_regression_analysis(adj_data, 'adj_emplvl', include_seasonal=False)
+                if adj_did_results:
+                    print("\nDiD Results for Seasonally Adjusted Employment:")
+                    print(adj_did_results.summary().tables[1])
+                    
+                    adj_coef = adj_did_results.params['treat_post']
+                    adj_pval = adj_did_results.pvalues['treat_post']
+                    all_results['Seasonally Adjusted'] = {'estimate': adj_coef, 'p_value': adj_pval, 'outcome': 'Employment'}
+                    print(f"\nDiD Estimate for Seasonally Adjusted Employment: {adj_coef:.2f} (p={adj_pval:.4f})")
+            except Exception as e:
+                print(f"Error in seasonal adjustment analysis: {str(e)}")
     else:
         print("Skipping seasonal adjustment analysis - insufficient data points")
 
@@ -578,6 +598,73 @@ try:
     plt.tight_layout()
     plt.savefig('seasonal_adjustment_analysis.png', dpi=300)
     print("Saved seasonal adjustment analysis to seasonal_adjustment_analysis.png")
+
+    # Create a summary chart of all results
+    print("\nCreating summary chart of all findings...")
+    
+    # Prepare data for the chart
+    models = list(all_results.keys())
+    estimates = [all_results[model]['estimate'] for model in models]
+    p_values = [all_results[model]['p_value'] for model in models]
+    outcomes = [all_results[model]['outcome'] for model in models]
+    
+    # Create Figure for the summary chart
+    plt.figure(figsize=(12, 8))
+    
+    # Create the bar chart with estimate values
+    bars = plt.bar(models, estimates, color=['lightblue' if p > 0.05 else 'lightgreen' if p > 0.01 else 'green' for p in p_values])
+    
+    # Add a horizontal line at zero
+    plt.axhline(y=0, color='black', linestyle='-', alpha=0.3)
+    
+    # Customize the chart
+    plt.title('Summary of Estimated Effects of California Paid Sick Leave Policy', fontsize=16)
+    plt.ylabel('Estimated Effect', fontsize=14)
+    plt.xticks(rotation=45, ha='right')
+    plt.grid(axis='y', linestyle='--', alpha=0.3)
+    
+    # Add p-values and effect sizes as annotations
+    for i, bar in enumerate(bars):
+        effect = estimates[i]
+        p_val = p_values[i]
+        outcome = outcomes[i]
+        
+        # Effect size label
+        if outcome == 'Employment':
+            effect_label = f"{effect:.0f} jobs"
+        else:
+            effect_label = f"${effect:.2f}"
+        
+        # P-value significance markers
+        if p_val < 0.01:
+            sig_marker = "***"
+        elif p_val < 0.05:
+            sig_marker = "**"
+        elif p_val < 0.1:
+            sig_marker = "*"
+        else:
+            sig_marker = "ns"
+        
+        # Position the label based on whether the bar is positive or negative
+        if effect >= 0:
+            plt.text(i, effect + max(estimates) * 0.02, f"{effect_label}\n(p={p_val:.3f}) {sig_marker}", 
+                    ha='center', va='bottom', fontsize=10)
+        else:
+            plt.text(i, effect - max(estimates) * 0.05, f"{effect_label}\n(p={p_val:.3f}) {sig_marker}", 
+                    ha='center', va='top', fontsize=10)
+    
+    # Add a legend for significance
+    legend_elements = [
+        mpatches.Patch(color='green', label='p < 0.01 (***)'),
+        mpatches.Patch(color='lightgreen', label='p < 0.05 (**)'),
+        mpatches.Patch(color='lightskyblue', label='p < 0.1 (*)'),
+        mpatches.Patch(color='lightblue', label='Not significant (ns)')
+    ]
+    plt.legend(handles=legend_elements, title="Significance Levels", loc='best')
+    
+    plt.tight_layout()
+    plt.savefig('results_summary_chart.png', dpi=300)
+    print("Saved summary chart to results_summary_chart.png")
 
 except Exception as e:
     import traceback
